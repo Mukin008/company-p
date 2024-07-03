@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Lovina Dhea Nusantara'),
+    'name' => env('APP_NAME', 'Lutvina Djaja Nusantara'),
 
     /*
     |--------------------------------------------------------------------------
