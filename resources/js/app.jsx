@@ -7,7 +7,7 @@ import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import 'react-toastify/dist/ReactToastify.css';
 
 const appName =
-    window.document.getElementsByTagName('title')[0]?.innerText || 'PT. LDN';
+    window.document.getElementsByTagName('title')[0]?.innerText || 'PT. Lutvina Djaja Nusantara';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,
