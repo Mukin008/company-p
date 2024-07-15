@@ -17,6 +17,13 @@ const MapComponent = () => {
             });
     }, []);
 
+    const markers = [
+        {
+            geocode: [-7.3127656, 112.7433249],
+            popUp: 'PT. Ludvina Djaja Nusantara'
+        }
+    ];
+
     return (
         <MapContainer
             center={[-7.3127192, 112.7408618]}
@@ -37,11 +44,13 @@ const MapComponent = () => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            {positions.map((position, index) => (
-                <Marker key={index} position={[-7.3127192, 112.7408618]}>
-                    <Popup>{position.name}</Popup>
+            {markers.map(marker => (
+                <Marker key={marker.geocode[0]} position={marker.geocode}>
+                    <Popup>{marker.popUp}</Popup>
                 </Marker>
-            ))}
+            )
+                
+            )}
         </MapContainer>
     );
 };

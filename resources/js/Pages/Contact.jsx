@@ -5,6 +5,7 @@ import { Wave, PhoneSVG, EmailSVG } from '@/Components/svg';
 import { InformationIcon } from '@iconicicons/react';
 import MapComponent from '@/Components/MapComponent';
 import parse from 'html-react-parser';
+import { TileLayer } from 'leaflet';
 
 
 const Contact = ({ title, auth, faqs }) => {
@@ -81,7 +82,10 @@ const Contact = ({ title, auth, faqs }) => {
                             </span>
 
                             <div className="flex items-center space-x-3 mt-5">
-                                <MapComponent />
+                                <MapComponent>
+                                    
+                                </MapComponent>
+                                
                             </div>
 
                             <div className="flex items-center space-x-3 mt-5">
