@@ -6,16 +6,16 @@ import axios from 'axios';
 const MapComponent = () => {
     const [positions, setPositions] = useState([]);
 
-    useEffect(() => {
-        axios
-            .get('http://your-laravel-backend-api.com/api/locations')
-            .then((response) => {
-                setPositions(response.data);
-            })
-            .catch((error) => {
-                console.error('There was an error fetching the data!', error);
-            });
-    }, []);
+    // useEffect(() => {
+    //     axios
+    //         .get('http://your-laravel-backend-api.com/api/locations')
+    //         .then((response) => {
+    //             setPositions(response.data);
+    //         })
+    //         .catch((error) => {
+    //             console.error('There was an error fetching the data!', error);
+    //         });
+    // });
 
     const markers = [
         {
@@ -44,15 +44,16 @@ const MapComponent = () => {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            {markers.map(marker => (
-                <Marker key={marker.geocode[0]} position={marker.geocode}>
-                    <Popup>{marker.popUp}</Popup>
-                </Marker>
-            )
+            {markers.map(marker => 
+                (
+                    <Marker key={marker.geocode[0]} position={marker.geocode}>
+                        <Popup>{marker.popUp}</Popup>
+                    </Marker>
+                )
                 
             )}
         </MapContainer>
-    );
+    )
 };
 
 export default MapComponent;

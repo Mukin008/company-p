@@ -1,13 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Http\Request; 
+use App\Models\Location; 
 
-use App\Models\Location;
-
-class LocationController extends Controller
-{
-    public function index()
+class LocationController extends Controller 
+{ public function index() 
     {
-        return Location::all(); // Mengembalikan semua data lokasi
-    }
+        return Location::all(); // Mengembalikan semua data lokasi 
+    } 
 }
