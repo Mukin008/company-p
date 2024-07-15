@@ -3,7 +3,9 @@ import Guest from '@/Layouts/GuestLayout';
 import { Head } from '@inertiajs/react';
 import { Wave, PhoneSVG, EmailSVG } from '@/Components/svg';
 import { InformationIcon } from '@iconicicons/react';
+import MapComponent from '@/Components/MapComponent';
 import parse from 'html-react-parser';
+
 
 const Contact = ({ title, auth, faqs }) => {
     const [check, setCheck] = useState('');
@@ -57,7 +59,7 @@ const Contact = ({ title, auth, faqs }) => {
                     </div>
                 </div>
 
-                <div className="h-[95vh] bg-primary text-primary-content mt-24 md:mt-0 relative">
+                <div className="flex flex-wrap bg-primary text-primary-content mt-5 md:mt-0 relative">
                     <Wave className="fill-base-200" />
                     <div className="flex flex-wrap w-full justify-between px-[8%] 2xl:px-[20%] lg:-mt-10 2xl:-mt-36 gap-4 lg:gap-0">
                         <div className="max-w-lg">
@@ -77,8 +79,13 @@ const Contact = ({ title, auth, faqs }) => {
                             <span className="text-lg">
                                 Jl. Bendul Merisi Selatan Airdas No. 2, Surabaya
                             </span>
+
                             <div className="flex items-center space-x-3 mt-5">
-                                <PhoneSVG className="mask mask-circle bg-error p-3 fill-error-content w-12 h-1w-12 md:w-14 md:h-14" />
+                                <MapComponent />
+                            </div>
+
+                            <div className="flex items-center space-x-3 mt-5">
+                                <PhoneSVG className="mask mask-circle bg-error p-3 fill-error-content w-12 h-1w-12 md:w-14 md:h-14"/>
                                 <div className="flex flex-col">
                                     <small>Telepon</small>
                                     <span className="font-medium">
@@ -86,12 +93,12 @@ const Contact = ({ title, auth, faqs }) => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="flex items-center space-x-3 mt-5">
+                            <div className="flex items-center space-x-3 mt-5 after:h-20">
                                 <EmailSVG className="mask mask-circle bg-success p-3 fill-success-content w-12 h-1w-12 md:w-14 md:h-14" />
                                 <div className="flex flex-col">
                                     <small>Email</small>
                                     <span className="font-medium">
-                                        ptlovinadheanusantara22@email.com
+                                        ptlutvinadn@gmail.com
                                     </span>
                                 </div>
                             </div>

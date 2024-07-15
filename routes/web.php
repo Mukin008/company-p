@@ -14,12 +14,19 @@ use App\Http\Controllers\CompanyServicePageController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\LocationController;
+
+
 
 Route::get('/', HomeController::class)->name('home');
 Route::get('profil', CompanyProfilePageController::class)->name('company.profile');
 Route::get('layanan', CompanyServicePageController::class)->name('company.service');
 Route::get('karir', CompanyCareerPageController::class)->name('company.career');
 Route::get('kontak', CompanyContactPageController::class)->name('company.contact-us');
+
+Route::get('locations', [LocationController::class, 'index']);
+
+
 
 Route::controller(CompanyMediaPageController::class)->group(fn () => [
     Route::get('media', 'index')->name('media.index'),
