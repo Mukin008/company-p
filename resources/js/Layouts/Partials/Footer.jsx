@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="flex flex-col">
                 <CompanyLogo className="w-24" />
                 <p>
-                    PT Lutvina Djaja Nusantara
+                    PT. Lutvina Djaja Nusantara
                     <br />
                     Copyright &copy; {year} All Right Reserved
                 </p>

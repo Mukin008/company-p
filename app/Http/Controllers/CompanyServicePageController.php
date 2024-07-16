@@ -16,32 +16,33 @@ class CompanyServicePageController extends Controller
         return inertia('Services/Services', [
             'title' => 'Layanan Kami',
             // Contractor Image
-            'bgContractor' => Storage::url('img/bgContractor.jpg'),
-            'contractorLandscape' => Storage::url('img/contractorLandscape.jpg'),
-            'contractorSeaport' => Storage::url('img/contractorSeaport.jpg'),
-            'contractorHospital' => Storage::url('img/contractorHospital.jpg'),
-            'contractorMako' => Storage::url('img/contractorMako.jpg'),
-            'contractorRestArea' => Storage::url('img/contractorRestArea.jpg'),
+            'bgContractor' => Storage::url('assets/bgContractor.jpg'),
+            'contractorLandscape' => Storage::url('assets/contractorLandscape.jpg'),
+            'contractorSeaport' => Storage::url('assets/contractorSeaport.jpg'),
+            'contractorHospital' => Storage::url('assets/contractorHospital.jpg'),
+            'contractorMako' => Storage::url('assets/contractorMako.jpg'),
+            'contractorRestArea' => Storage::url('assets/contractorRestArea.jpg'),
+            
 
             // Supplier Image
-            'supplierImg' => Storage::url('img/supplier.jpg'),
-            'supplierPlumbing' => Storage::url('img/supplierPlumbing.jpg'),
-            'supplierMaterials' => Storage::url('img/supplierMaterials.jpg'),
-            'supplierElectrical' => Storage::url('img/supplierElectrical.jpg'),
+            'supplierImg' => Storage::url('assets/supplier.jpg'),
+            'supplierPlumbing' => Storage::url('assets/supplierPlumbing.jpg'),
+            'supplierMaterials' => Storage::url('assets/supplierMaterials.jpg'),
+            'supplierElectrical' => Storage::url('assets/supplierElectrical.jpg'),
 
             // Tech image
-            'bgTech' => Storage::url('img/tech.jpg'),
-            'techHardware' => Storage::url('img/techHardware.jpg'),
-            'techSoftware' => Storage::url('img/techSoftware.jpg'),
-            'techCyber' => Storage::url('img/techCyber.jpg'),
-            'techPerbankan' => Storage::url('img/techBanking.jpg'),
+            'bgTech' => Storage::url('assets/tech.jpg'),
+            'techHardware' => Storage::url('assets/techHardware.jpg'),
+            'techSoftware' => Storage::url('assets/techSoftware.jpg'),
+            'techCyber' => Storage::url('assets/techCyber.jpg'),
+            'techPerbankan' => Storage::url('assets/techBanking.jpg'),
 
             // trading image
-            'tradingImg' => Storage::url('img/trading.jpg'),
-            'tradMedical' => Storage::url('img/tradMedical.jpg'),
-            'tradBlanket' => Storage::url('img/tradBlanket.jpg'),
-            'tradTowel' => Storage::url('img/tradTowel.jpg'),
-            'tradShoes' => Storage::url('img/tradShoes.jpg'),
+            'tradingImg' => Storage::url('assets/trading.jpg'),
+            'tradMedical' => Storage::url('assets/tradMedical.jpg'),
+            'tradBlanket' => Storage::url('assets/tradBlanket.jpg'),
+            'tradTowel' => Storage::url('assets/tradTowel.jpg'),
+            'tradShoes' => Storage::url('assets/tradShoes.jpg'),
 
         ]);
     }

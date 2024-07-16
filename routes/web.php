@@ -14,7 +14,7 @@ use App\Http\Controllers\CompanyServicePageController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
-use App\Http\Controllers\LocationController;
+//use App\Http\Controllers\LocationController;
 
 
 
@@ -24,7 +24,7 @@ Route::get('layanan', CompanyServicePageController::class)->name('company.servic
 Route::get('karir', CompanyCareerPageController::class)->name('company.career');
 Route::get('kontak', CompanyContactPageController::class)->name('company.contact-us');
 
-Route::get('locations', [LocationController::class, 'index']);
+//Route::get('locations', [LocationController::class, 'index']);
 
 
 
