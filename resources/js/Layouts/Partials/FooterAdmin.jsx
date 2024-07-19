@@ -14,7 +14,7 @@ const FooterAdmin = () => {
                     </a>
                 </p>
                 <p>
-                    &copy; 2023 PT Lovina Dhea Nusantara. All Rights Reserved.
+                    &copy; 2024 PT Lutvina Djaja Nusantara. All Rights Reserved.
                 </p>
             </div>
         </footer>

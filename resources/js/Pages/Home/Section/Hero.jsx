@@ -5,7 +5,7 @@ import { Link } from '@inertiajs/react';
 
 const Hero = () => {
     return (
-        <div className="relative hero bg-base-100 pt-20 pb-20 xl:pb-52">
+        <div className="relative hero bg-base-100 pt-20 pb-20 xl:pb-52 bottom-5">
             <div className="hero-content flex-col text-center z-30">
                 <CompanyLogo className="2xl:w-72 xl:w-56 w-52 object-contain" />
                 {/* <img
@@ -14,7 +14,7 @@ const Hero = () => {
                     alt="CompanyLogo"
                 /> */}
                 <div className="max-w-2xl">
-                    <h1 className="text-2xl md:text-5xl font-bold bg-gradient-to-r from-secondary to-accent text-transparent bg-clip-text">
+                    <h1 className="text-2xl md:text-5xl font-bold bg-gradient-to-r from-secondary to-accent text-transparent bg-clip-text ">
                         PT. Lutvina Djaja Nusantara
                     </h1>
                     <div className="divider -m-1 opacity-25 before:bg-base-content after:bg-base-content" />
@@ -39,8 +39,8 @@ const Hero = () => {
                         <ArrowRightIcon className="animate-pulse" />
                     </Link>
                 </div>
-            </div>
-            <Wave className="absolute -bottom-5 md:-bottom-14 xl:-bottom-24 z-10 fill-base-200 rotate-180" />
+            </div >
+            <Wave className="absolute -bottom-5 md:-bottom-19 xl:-bottom-50 z-10 fill-base-200 rotate-180" />
         </div>
     );
 };

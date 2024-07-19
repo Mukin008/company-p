@@ -1,7 +1,7 @@
 import { Head } from '@inertiajs/react';
 import Guest from '@/Layouts/GuestLayout';
 import Hero from './Section/Hero';
-import News from './Section/News';
+// import News from './Section/News';
 
 export default function Home({ title, auth, news }) {
     return (
@@ -9,7 +9,7 @@ export default function Home({ title, auth, news }) {
             <Head title={title}></Head>
             <Hero />
             
-            <News news={news} />
+            {/* <News news={news} /> */}
         </Guest>
     );
 }

@@ -4,6 +4,7 @@ import { Hamburger } from '@/Components/svg';
 import CompanyLogo from '@/Components/CompanyLogo';
 import SwapTheme from '@/Components/SwapTheme';
 
+
 const Navbar = ({ auth }) => {
     const { url } = usePage();
     const [navbarFixed, setNavbarFixed] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = ({ auth }) => {
             }`}
         >
             <div className="navbar-start">
-                {/* Mobile view */}
+                {/* Mobile view (Mobile Mode*/}
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <Hamburger />
@@ -120,7 +121,7 @@ const Navbar = ({ auth }) => {
                                 </li>
                             </ul>
                         </li>
-                        <li tabIndex={0}>
+                        {/* <li tabIndex={0}>
                             <a>Media & Informasi</a>
                             <ul className="p-2">
                                 <li>
@@ -132,7 +133,7 @@ const Navbar = ({ auth }) => {
                                     <Link href="#!">Vidio Terkait</Link>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href={route('company.career')}>Karir</Link>
                         </li>
@@ -148,7 +149,7 @@ const Navbar = ({ auth }) => {
                 </Link>
             </div>
 
-            {/* Large view */}
+            {/* Large view (Desktop Mode)*/}
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li>
@@ -224,7 +225,8 @@ const Navbar = ({ auth }) => {
                             </ul>
                         </details>
                     </li>
-                    <li tabIndex={0}>
+                    
+                    {/* <li tabIndex={0}>
                         <details>
                             <summary>Media & Informasi</summary>
                             <ul className="p-2 bg-base-100 shadow">
@@ -233,12 +235,12 @@ const Navbar = ({ auth }) => {
                                         Berita
                                     </Link>
                                 </li>
-                                {/* <li>
+                                <li>
                                     <Link href="#!">Vidio Terkait</Link>
-                                </li> */}
+                                </li>
                             </ul>
                         </details>
-                    </li>
+                    </li> */}
 
                     <li>
                         <Link href={route('company.career')}>Karir</Link>
