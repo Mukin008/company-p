@@ -8,7 +8,12 @@ const Vision = () => {
         >
             <div className="flex lg:flex-row justify-around items-start flex-col w-full gap-5 lg:gap-0 border border-base-300 p-10 rounded-box bg-base-100 shadow-lg">
                 <div className="lg:self-start self-center">
-                    <CompanyLogo className="2xl:w-72 xl:w-56 w-52 object-contain" />
+                    {/* <CompanyLogo className="2xl:w-72 xl:w-56 w-52 object-contain" /> */}
+                    <img
+                        src="/storage/assets/companyLogo.webp"
+                        alt="pict logo"
+                        className="2xl:w-72 xl:w-56 w-52 object-contain"
+                    />
                 </div>
                 <div className="flex flex-col justify-start items-start gap-5">
                     <div className="flex flex-col text-center mx-auto">

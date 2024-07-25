@@ -31,21 +31,21 @@ const Navbar = ({ auth }) => {
         setIsDropdownOpen(!isDropdownOpen);
     };
 
-    // const handleClickOutside = (event) => {
-    //     if (
-    //         dropdownRef.current &&
-    //         !dropdownRef.current.contains(event.target)
-    //     ) {
-    //         setIsDropdownOpen(false);
-    //     }
-    // };
+    const handleClickOutside = (event) => {
+        if (
+            dropdownRef.current &&
+            !dropdownRef.current.contains(event.target)
+        ) {
+            setIsDropdownOpen(false);
+        }
+    };
 
-    // useEffect(() => {
-    // document.addEventListener('mousedown', handleClickOutside);
-    // return () => {
-    //   document.removeEventListener('mousedown', handleClickOutside);
-    // };
-    // }, []);
+    useEffect(() => {
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+    }, []);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
