@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="relative hero bg-base-100 pt-20 pb-20 xl:pb-52 bottom-5">
             <div className="hero-content flex-col text-center z-30">
-                <CompanyLogo className="2xl:w-72 xl:w-56 w-52 object-contain" />
+                <CompanyLogo className="2xl:w-60 xl:w-56 w-52 object-contain" />
                 {/* <img
                     className="mask mask-circle 2xl:w-72 xl:w-56 w-52 object-contain "
                     src={companyLogo}
