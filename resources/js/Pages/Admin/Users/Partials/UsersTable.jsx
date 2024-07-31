@@ -1,5 +1,5 @@
 import { Link, router } from '@inertiajs/react';
-import avatar from '/public/storage/img/defaultAvatar.png';
+//import avatar from '/public/storage/img/defaultAvatar.png';
 
 const UsersTable = ({ users, authRole }) => {
     const handleDelete = (user) => {
