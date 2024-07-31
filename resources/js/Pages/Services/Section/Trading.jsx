@@ -1,4 +1,4 @@
-const Trading = ({ tradingImg, medical, shoes, towel, blanket }) => {
+const Trading = ({ tradingImg, medical, shoes, towel, blanket, caliber, ammunition, tank }) => {
     return (
         <section
             id="supplier"
@@ -55,6 +55,33 @@ const Trading = ({ tradingImg, medical, shoes, towel, blanket }) => {
                                 className="w-48 h-48 rounded-box object-fill shadow-md shadow-neutral-focus"
                             />
                             <h4 className="text-xl font-semibold">Selimut</h4>
+                        </div>
+
+                        <div className="flex flex-col justify-center items-center gap-3">
+                            <img
+                                src={caliber}
+                                alt="Kaliber"
+                                className="w-48 h-48 rounded-box object-fill shadow-md shadow-neutral-focus"
+                            />
+                            <h4 className="text-xl font-semibold">Kaliber</h4>
+                        </div>
+
+                        <div className="flex flex-col justify-center items-center gap-3">
+                            <img
+                                src={ammunition}
+                                alt="Amunisi"
+                                className="w-48 h-48 rounded-box object-fill shadow-md shadow-neutral-focus"
+                            />
+                            <h4 className="text-xl font-semibold">Amunisi</h4>
+                        </div>
+
+                        <div className="flex flex-col justify-center items-center gap-3">
+                            <img
+                                src={tank}
+                                alt="Peluncur Multi-Roket"
+                                className="w-48 h-48 rounded-box object-fill shadow-md shadow-neutral-focus"
+                            />
+                            <h4 className="text-xl font-semibold">Peluncur Multi-Roket</h4>
                         </div>
                     </div>
                 </div>

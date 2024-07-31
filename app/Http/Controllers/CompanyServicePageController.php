@@ -42,7 +42,11 @@ class CompanyServicePageController extends Controller
             'tradMedical' => Storage::url('assets/tradMedical.jpg'),
             'tradBlanket' => Storage::url('assets/tradBlanket.jpg'),
             'tradTowel' => Storage::url('assets/tradTowel.jpg'),
-            'tradShoes' => Storage::url('assets/tradShoes.jpg'),
+            'tradShoes' => Storage::url('assets/tradShoes.jpeg'),
+            'tradCaliber' => Storage::url('assets/tradCaliber.jpeg'),
+            'tradAmmunition' => Storage::url('assets/tradAmmunition.jpeg'),
+            'tradTank' => Storage::url('assets/tradTank.jpeg'),
+            
 
         ]);
     }

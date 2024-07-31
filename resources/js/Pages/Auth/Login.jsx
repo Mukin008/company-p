@@ -54,7 +54,7 @@ export default function Login({ status, canResetPassword, flash }) {
             )}
             <div className="flex w-full max-w-5xl">
                 <div className="w-full bg-base-100 rounded-xl relative z-10 left-8 border-2 border-primary drop-shadow-2xl">
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center py-60 lg:py-14">
                         <CompanyLogo className="w-full max-w-sm object-contain" />
                     </div>
                 </div>

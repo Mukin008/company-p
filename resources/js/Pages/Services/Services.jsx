@@ -29,6 +29,9 @@ const Services = ({ auth, title }) => {
         tradBlanket,
         tradTowel,
         tradShoes,
+        tradCaliber,
+        tradAmmunition,
+        tradTank,
     } = usePage().props;
     return (
         <Guest auth={auth.user}>
@@ -63,6 +66,10 @@ const Services = ({ auth, title }) => {
                     shoes={tradShoes}
                     medical={tradMedical}
                     blanket={tradBlanket}
+                    caliber={tradCaliber}
+                    ammunition={tradAmmunition}
+                    tank={tradTank}
+                    
                 />
             </main>
         </Guest>

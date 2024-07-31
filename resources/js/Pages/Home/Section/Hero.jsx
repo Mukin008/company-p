@@ -5,7 +5,7 @@ import { Link } from '@inertiajs/react';
 
 const Hero = () => {
     return (
-        <div className="relative hero bg-base-100 pt-20 pb-20 xl:pb-52 bottom-5">
+        <div className="relative hero bg-base-100 pt-28 pb-20 xl:pb-52 bottom-5">
             <div className="hero-content flex-col text-center z-30">
                 <CompanyLogo className="2xl:w-60 xl:w-56 w-52 object-contain" />
                 {/* <img
