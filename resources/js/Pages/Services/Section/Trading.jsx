@@ -14,7 +14,7 @@ const Trading = ({ tradingImg, medical, shoes, towel, blanket, caliber, ammuniti
                 </div>
                 <div className="flex flex-col justify-start items-start ">
                     <h2 className="md:text-5xl text-4xl font-semibold text-primary">
-                        Trading
+                        Bidang Usaha Perdagangan
                     </h2>
                     <p className="text-base font-normal max-w-lg mt-5">
                         Trading adalah suatu proses traksaksi yang berlangsung
