@@ -19,7 +19,7 @@ const Hero = () => {
                     </h1>
                     <div className="divider -m-1 opacity-25 before:bg-base-content after:bg-base-content" />
                     <h4 className="md:text-2xl text-sm font-light bg-gradient-to-l from-secondary to-accent text-transparent bg-clip-text tracking-wider">
-                        GENERAL CONTRACTOR, SUPPLIER, and TRADING
+                        GENERAL CONTRACTOR, IT, and TRADING
                     </h4>
                     {/* <p className="py-6 text-base-content">
                         Perusahaan yang berdiri sebagai bentuk respon dari
