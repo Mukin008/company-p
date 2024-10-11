@@ -185,7 +185,7 @@ const Navbar = ({ auth }) => {
 
             {/* Large view (Desktop Mode)*/}
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-base">
                     <li>
                         <Link href={route('home')}>Beranda</Link>
                     </li>
@@ -298,7 +298,7 @@ const Navbar = ({ auth }) => {
             {/* Lang */}
             <div className="navbar-end pr-4 lg:pr-0">
                 <div className="flex justify-center items-end gap-2">
-                    <span className="font-medium">Tema</span>
+                    <span className="font-medium"></span>
                     <SwapTheme
                         onChange={toggleTheme}
                         checked={theme === 'winter' ? false : true}
