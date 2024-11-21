@@ -46,7 +46,7 @@ const Services = ({ auth, title }) => {
                     contractorRestArea={contractorRestArea}
                 />
 
-                <Supplier
+                {/* <Supplier
                     supplierImg={supplierImg}
                     plumbing={supplierPlumbing}
                     materials={supplierMaterials}
@@ -59,7 +59,8 @@ const Services = ({ auth, title }) => {
                     software={techSoftware}
                     perbankan={techPerbankan}
                     cyber={techCyber}
-                />
+                /> */}
+
                 <Trading
                     tradingImg={tradingImg}
                     towel={tradTowel}
