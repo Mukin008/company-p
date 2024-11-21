@@ -17,7 +17,7 @@ const InformationTechnology = ({
             <div className="flex flex-col gap-5">
                 <div className="flex-1 flex flex-col justify-center items-start">
                     <h2 className="md:text-5xl text-4xl font-semibold text-primary">
-                        Teknologi Informasi
+                        BIDANG USAHA IT & PERDAGANGAN
                     </h2>
                     <p className="text-base font-normal max-w-lg mt-5">
                         IT singkatan dari Information Technology adalah suatu

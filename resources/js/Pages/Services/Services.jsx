@@ -51,9 +51,9 @@ const Services = ({ auth, title }) => {
                     plumbing={supplierPlumbing}
                     materials={supplierMaterials}
                     electrical={supplierElectrical}
-                />
+                /> */}
 
-                <InformationTechnology
+                {/* <InformationTechnology
                     bgTech={bgTech}
                     hardware={techHardware}
                     software={techSoftware}
@@ -70,7 +70,14 @@ const Services = ({ auth, title }) => {
                     caliber={tradCaliber}
                     ammunition={tradAmmunition}
                     tank={tradTank}
-                    
+                />
+
+                <InformationTechnology
+                    bgTech={bgTech}
+                    hardware={techHardware}
+                    software={techSoftware}
+                    perbankan={techPerbankan}
+                    cyber={techCyber}
                 />
             </main>
         </Guest>

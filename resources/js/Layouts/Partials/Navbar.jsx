@@ -77,7 +77,7 @@ const Navbar = ({ auth }) => {
                     >
                         <Hamburger />
                     </label>
-                
+
                     {isDropdownOpen && (
                         <ul
                             tabIndex={0}
@@ -176,7 +176,6 @@ const Navbar = ({ auth }) => {
                             </li>
                         </ul>
                     )}
-
                 </div>
                 <Link href="/">
                     <CompanyLogo className="w-14 object-contain -m-1" />
@@ -247,14 +246,16 @@ const Navbar = ({ auth }) => {
                                         Jasa Konstruksi
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link>Supplier</Link>
+                                </li> */}
+
+                                <li>
+                                    <Link>Perdagangan/Trading</Link>
                                 </li>
+
                                 <li>
                                     <Link>Teknologi Informasi</Link>
-                                </li>
-                                <li>
-                                    <Link>Trading</Link>
                                 </li>
                             </ul>
                         </details>

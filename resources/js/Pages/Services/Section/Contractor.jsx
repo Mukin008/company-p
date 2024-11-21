@@ -40,7 +40,7 @@ const Contractor = ({
                             alt="Landscape"
                             className="w-52 h-52 rounded-box object-cover shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Landscape</h4>
+                        <h4 className="text-xl font-semibold">Gedung Hunian</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -48,7 +48,7 @@ const Contractor = ({
                             alt="Rumah sakit"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rumah Sakit</h4>
+                        <h4 className="text-xl font-semibold">Gedung Perkantoran</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -56,7 +56,7 @@ const Contractor = ({
                             alt="Seaport"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Dermaga</h4>
+                        <h4 className="text-xl font-semibold">Gedung Industri</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -64,7 +64,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Gedung Perbelanjaan</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -72,7 +72,7 @@ const Contractor = ({
                             alt="Mako"
                             className="w-52 h-52 rounded-box object-cover shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Gedung Mako</h4>
+                        <h4 className="text-xl font-semibold">Gedung Kesehatan</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -80,7 +80,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Gedung Pendidikan</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -88,7 +88,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Bangunan Sipil Jalan</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -96,7 +96,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Bangunan Sipil Jembatan, Jalan Layang, Fly Over dan Underpass</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -104,7 +104,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Bangunan Sipil Sarana & Prasarana Sistem Pengolahan Limbah Padat, Cair dan Gas</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -112,7 +112,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Bangunan Sipil Elektrikal</h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -120,7 +120,7 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                        <h4 className="text-xl font-semibold">Bangunan Pelabuhan Bukan Perikanan</h4>
                     </div>
                 </div>
             </div>
