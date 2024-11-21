@@ -22,7 +22,7 @@ const Contractor = ({
             <div className="flex flex-col gap-5">
                 <div className="flex flex-col justify-center items-start">
                     <h2 className="md:text-5xl text-4xl font-semibold text-primary">
-                        Jasa Kontruksi
+                        BIDANG USAHA KONSTRUKSI
                     </h2>
                     <p className="text-base font-normal max-w-2xl mt-5">
                         Kontraktor adalah istilah yang berasal dari kata
@@ -73,6 +73,54 @@ const Contractor = ({
                             className="w-52 h-52 rounded-box object-cover shadow-md shadow-black"
                         />
                         <h4 className="text-xl font-semibold">Gedung Mako</h4>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-3">
+                        <img
+                            src={contractorRestArea}
+                            alt="Rest Area"
+                            className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
+                        />
+                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-3">
+                        <img
+                            src={contractorRestArea}
+                            alt="Rest Area"
+                            className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
+                        />
+                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-3">
+                        <img
+                            src={contractorRestArea}
+                            alt="Rest Area"
+                            className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
+                        />
+                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-3">
+                        <img
+                            src={contractorRestArea}
+                            alt="Rest Area"
+                            className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
+                        />
+                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-3">
+                        <img
+                            src={contractorRestArea}
+                            alt="Rest Area"
+                            className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
+                        />
+                        <h4 className="text-xl font-semibold">Rest Area</h4>
+                    </div>
+                    <div className="flex flex-col justify-center items-center gap-3">
+                        <img
+                            src={contractorRestArea}
+                            alt="Rest Area"
+                            className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
+                        />
+                        <h4 className="text-xl font-semibold">Rest Area</h4>
                     </div>
                 </div>
             </div>
