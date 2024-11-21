@@ -25,12 +25,10 @@ const Contractor = ({
                         BIDANG USAHA KONSTRUKSI
                     </h2>
                     <p className="text-base font-normal max-w-2xl mt-5">
-                        Kontraktor adalah istilah yang berasal dari kata
-                        "kontrak" dan memiliki arti surat kesepakatan atau
-                        perjanjian. Namun, secara umum, pengertian kontraktor
-                        adalah sebuah tenaga profesional dimana merekamemberikan
-                        layanan serta keterampilan kepada perorangan,
-                        perusahaan, atau juga negara dalam masa waktu tertentu.
+                        Pekerjaan konstruksi merupakan layanan jasa pelaksanaan
+                        dalam pekerjaan konstruksi mulai dari pembangunan gedung
+                        baru, pemeliharaan gedung, hingga pembangunan
+                        kembali/renovasi pada gedung.
                     </p>
                 </div>
                 <div className="flex flex-wrap justify-center md:justify-start gap-5 max-w-2xl">
@@ -48,7 +46,9 @@ const Contractor = ({
                             alt="Rumah sakit"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Gedung Perkantoran</h4>
+                        <h4 className="text-xl font-semibold">
+                            Gedung Perkantoran
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -56,7 +56,9 @@ const Contractor = ({
                             alt="Seaport"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Gedung Industri</h4>
+                        <h4 className="text-xl font-semibold">
+                            Gedung Industri
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -64,7 +66,9 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Gedung Perbelanjaan</h4>
+                        <h4 className="text-xl font-semibold">
+                            Gedung Perbelanjaan
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -72,7 +76,9 @@ const Contractor = ({
                             alt="Mako"
                             className="w-52 h-52 rounded-box object-cover shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Gedung Kesehatan</h4>
+                        <h4 className="text-xl font-semibold">
+                            Gedung Kesehatan
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -80,7 +86,9 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Gedung Pendidikan</h4>
+                        <h4 className="text-xl font-semibold">
+                            Gedung Pendidikan
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -88,7 +96,9 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Bangunan Sipil Jalan</h4>
+                        <h4 className="text-xl font-semibold">
+                            Bangunan Sipil Jalan
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -96,7 +106,10 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Bangunan Sipil Jembatan, Jalan Layang, Fly Over dan Underpass</h4>
+                        <h4 className="text-xl font-semibold">
+                            Bangunan Sipil Jembatan, Jalan Layang, Fly Over dan
+                            Underpass
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -104,7 +117,10 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Bangunan Sipil Sarana & Prasarana Sistem Pengolahan Limbah Padat, Cair dan Gas</h4>
+                        <h4 className="text-xl font-semibold">
+                            Bangunan Sipil Sarana & Prasarana Sistem Pengolahan
+                            Limbah Padat, Cair dan Gas
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -112,7 +128,9 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Bangunan Sipil Elektrikal</h4>
+                        <h4 className="text-xl font-semibold">
+                            Bangunan Sipil Elektrikal
+                        </h4>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-3">
                         <img
@@ -120,7 +138,9 @@ const Contractor = ({
                             alt="Rest Area"
                             className="w-52 h-52 rounded-box object-fill shadow-md shadow-black"
                         />
-                        <h4 className="text-xl font-semibold">Bangunan Pelabuhan Bukan Perikanan</h4>
+                        <h4 className="text-xl font-semibold">
+                            Bangunan Pelabuhan Bukan Perikanan
+                        </h4>
                     </div>
                 </div>
             </div>

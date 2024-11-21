@@ -251,7 +251,9 @@ const Navbar = ({ auth }) => {
                                 </li> */}
 
                                 <li>
-                                    <Link>Perdagangan/Trading</Link>
+                                    <Link href={route('company.service')}>
+                                        Perdagangan/Trading
+                                    </Link>
                                 </li>
 
                                 <li>

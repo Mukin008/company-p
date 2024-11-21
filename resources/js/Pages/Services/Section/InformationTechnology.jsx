@@ -20,12 +20,11 @@ const InformationTechnology = ({
                         BIDANG USAHA IT & PERDAGANGAN
                     </h2>
                     <p className="text-base font-normal max-w-lg mt-5">
-                        IT singkatan dari Information Technology adalah suatu
-                        teknologi berupa (hardware, software, brainware) yang
-                        digunakan untuk memperoleh, mengirimkan, mengolah,
-                        menafsirkan, menyimpan, mengorganisasikan, dan
-                        menggunakan data secara bermakna untuk memperolah
-                        informasi yang berkualitas.
+                        Kegiatan teknologi informasi dan jasa komputer seperti
+                        pemulihan kerusakan komputer, instalasi (setting up)
+                        personal komputer dan instalasi perangkat lunak.
+                        Termasuk juga kegiatan manajemen insiden dan digital
+                        forensik.
                     </p>
                 </div>
                 <div className="flex flex-wrap justify-center md:justify-start gap-5 max-w-7xl">
