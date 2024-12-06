@@ -12,13 +12,13 @@ const Organization = ({ structuralImg, structuralImgMobile }) => {
                     <img
                         src={structuralImg}
                         alt="Struktur Organisasi"
-                        className="hidden md:block object-contain rounded-box shadow-lg"
+                        // className="hidden md:block object-contain rounded-box shadow-lg"
                     />
-                    <img
+                    {/* <img
                         src={structuralImgMobile}
                         alt="Struktur Organisasi"
                         className="md:hidden object-contain rounded-box shadow-lg"
-                    />
+                    /> */}
                 </div>
             </div>
         </section>
