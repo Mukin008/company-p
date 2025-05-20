@@ -45,7 +45,7 @@ class CompanyServicePageController extends Controller
             'tradShoes' => Storage::url('assets/tradShoes.jpeg'),
             'tradCaliber' => Storage::url('assets/tradCaliber.jpeg'),
             'tradAmmunition' => Storage::url('assets/tradAmmunition.jpeg'),
-            'tradTank' => Storage::url('assets/tradTank.jpeg'),
+            //'tradTank' => Storage::url('assets/tradTank.jpeg'),
             
 
         ]);
